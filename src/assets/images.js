@@ -69,9 +69,9 @@ export const companyLogos = {
 export const questionnaireImages = {
   1: [
     FeedImage101,
-    FeedImage102,
+    /* FeedImage102,
     FeedImage103,
-    FeedImage104,
+    FeedImage104, */
   ]//,
   // 2: [
   //   Profile203,
