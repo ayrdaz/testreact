@@ -7,7 +7,7 @@ const questionnaire = [
     type: 'overview',
     content: {
       title: '컴퓨터공학부를 선택하는 당신에게 맞는 트랙은?',
-      explanation: '뭐? 트랙이 4가지나 된다고? 그럼 난 어디로 가야하는데..?',
+      explanation: '뭐? !@#!!@#!@#!@#!! 트랙이 4가지나 된다고? 그럼 난 어디로 가야하는데..?',
       tips: [
         '# 재미로 보는',
         '# 내 성향에 맞는 트랙',
