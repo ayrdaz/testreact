@@ -17,7 +17,6 @@ const results = [
     description: '아마존은~',
     tag: '태그_@Amazon',
   },
-  
 ];
 
 export default results;

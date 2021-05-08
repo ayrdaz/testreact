@@ -61,6 +61,7 @@ describe('reducer', () => {
         result: {
           first: null,
           second: null,
+          third: null,
           last: null,
         },
       };
@@ -68,6 +69,7 @@ describe('reducer', () => {
       const resultIds = {
         first: 1,
         second: 2,
+        third: 3,
         last: 4,
       };
 

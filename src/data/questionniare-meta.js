@@ -1,6 +1,6 @@
-const questionsCount = 10;
+const questionsCount = 11;
 const overviewCount = 1;
-const questionnaireCount = 11;
+const questionnaireCount = 12;
 
 export {
   questionsCount,

@@ -17,7 +17,7 @@ test('ResultPage', () => {
     result: {
       first: RESULTS[0],
       second: RESULTS[1],
-      three:RESULTS[2],
+      third:RESULTS[2],
       last: RESULTS[3],
     },
   }));

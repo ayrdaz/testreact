@@ -1,4 +1,3 @@
-
 const questionnaire = [
   {
     id: 1,
@@ -101,7 +100,7 @@ const questionnaire = [
   {
     id: 8,
     previousId: 7,
-    nextId: null,
+    nextId: 9,
     type: 'question',
     content: {
       title: 'Question7',
@@ -132,7 +131,7 @@ const questionnaire = [
     nextId: 11,
     type: 'question',
     content: {
-      title: 'Question8',
+      title: 'Question9',
       question: '당신이 공부에 집중하고 있는데 갑자기 해리가 말을 건다. 당신의 반응은??',
       options: [
         { id: 1, title: '오랜만에 사람과의 대화! 반갑고 신난다.' },
@@ -144,10 +143,10 @@ const questionnaire = [
   {
     id: 11,
     previousId: 10,
-    nextId: 12,
+    nextId: null,
     type: 'question',
     content: {
-      title: 'Question9',
+      title: 'Question10',
       question: '해리와 같이 있다가 나쁜 마법사를 만났다.학교 규정을 어기고 나쁜 마법사를 함께 무찌른 당신! 이 상황을 교장선생님께 전달해야한다. 당신의 말하는 스타일은?',
       options: [
         { id: 1, title: '객관적인 사실 중심의 보고' },

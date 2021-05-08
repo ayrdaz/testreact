@@ -42,8 +42,15 @@ export function findResultIds(scores) {
   const resultIds = {
     firstId: getId(0),
     secondId: getId(1),
+    third: getId(sortedScores.length - 2),
     lastId: getId(sortedScores.length - 1),
   };
+  //3 4 2 3
+  // 3 4 (4 )
+  console.log(getId(0));
+  console.log(getId(1));
+  console.log(sortedScores.length - 2);
+  console.log(sortedScores.length - 1);
 
   return resultIds;
 }

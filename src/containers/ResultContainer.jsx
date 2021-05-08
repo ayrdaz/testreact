@@ -7,14 +7,14 @@ import Result from '../components/Result';
 import { get } from '../utils';
 
 export default function ResultContainer({ handleClickLink }) {
-  const { first, second,three, last } = useSelector(get('result'));
+  const { first, second, third, last } = useSelector(get('result'));
 
   return (
     <>
       <Result
         first={first}
         second={second}
-        three={three}
+        third={third}
         last={last}
         handleClick={handleClickLink}
       />

@@ -34,7 +34,7 @@ const ContributorsButton = styled.button({
   fontWeight: 'bold',
   padding: '.4em 1.4em',
   margin: '1em 0',
-  color: '4646CD',
+  color: '#4646CD',
   backgroundColor: 'transparent',
   alignItems: 'center',
   outline: 'none',
