@@ -13,8 +13,8 @@ const Container = styled.div({
 });
 
 const Logo = styled.img({
-  height: '210px', //첫화면로고크기
-  width: '190px',
+  height: '240px', //첫화면로고크기
+  width: '210px',
   margin: '1em auto',
 });
 
@@ -33,8 +33,8 @@ export default function HomeTitle() {
       />
       
     }
-      <Text>나에게 맞는</Text>
-      <Text>컴퓨터공학부 트랙은?</Text>
+      {/* <Text>나에게 맞는</Text>
+      <Text>컴퓨터공학부 트랙은?</Text> */}
     </Container>
   );
 }
