@@ -20,6 +20,7 @@ const { actions, reducer } = createSlice({
     result: {
       first: null,
       second: null,
+      third: null,
       last: null,
     },
   },
@@ -47,12 +48,13 @@ const { actions, reducer } = createSlice({
         answers: {},
       };
     },
-    setResult(state, { payload: { first, second, last } }) {
+    setResult(state, { payload: { first, second, third, last } }) {
       return {
         ...state,
         result: {
           first,
           second,
+          third,
           last,
         },
       };
@@ -89,11 +91,12 @@ export function loadResult(answers) {
 
     const totalScore = calculateScore({ answers, scores });
 
-    const { firstId, secondId, lastId } = findResultIds(totalScore);
+    const { firstId, secondId, thirdId, lastId } = findResultIds(totalScore);
 
     const results = {
       first: getResult(firstId),
       second: getResult(secondId),
+      third: getResult(thirdId),
       last: getResult(lastId),
     };
 

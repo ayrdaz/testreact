@@ -34,17 +34,17 @@ const CompanyLogo = styled.img({
   maxWidth: '80vw',
 });
 
-export default function ResultContent({ first, second, last }) {
+export default function ResultContent({ first, second, third, last }) {
   return (
     <Container>
       <TitleWithEmoji
         title="당신의_트랙은_바로!"
         emoji="🎉"
       />
-      <CompanyLogo
+      {/* <CompanyLogo
         src={companyLogos[first.id]}
         alt=""
-      />
+      /> */}
       <Subtitle> </Subtitle>
       <Subtitle>{first.subtitle}</Subtitle>
       {/* <p>{first.description}</p> */}
@@ -61,12 +61,19 @@ export default function ResultContent({ first, second, last }) {
         title="두번째로_잘어울리는_트랙"
         emoji="☑"
       />
-      <Tag>{second.tag}</Tag>
+      <Tag>{second.subtitle}</Tag>
+
+      <TitleWithEmoji
+        title="세번째로_잘어울리는_트랙"
+        emoji="☑"
+      />
+      {/* <Tag>{third.subtitle}</Tag> */}
+
       <TitleWithEmoji
         title="나와_마지막으로_잘어울리는_트랙"
         emoji="☑"
       />
-      <Tag>{last.tag}</Tag>
+      <Tag>{last.subtitle}</Tag>
       {/* <TitleWithEmoji
         title="공유하기"
         emoji="💡"

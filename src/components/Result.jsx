@@ -29,7 +29,7 @@ const Wrapper = styled.div({
 });
 
 export default function Result({
-  first, second, last, handleClick,
+  first, second, third, last, handleClick,
 }) {
   return (
     <Container id={first.id}>
@@ -47,6 +47,7 @@ export default function Result({
         <ResultContent
           first={first}
           second={second}
+          third={third}
           last={last}
         />
       </Wrapper>

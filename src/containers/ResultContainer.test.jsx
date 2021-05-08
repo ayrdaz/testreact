@@ -17,7 +17,8 @@ test('ResultContainer', () => {
     result: {
       first: RESULTS[0],
       second: RESULTS[1],
-      last: RESULTS[2],
+      third: RESULTS[2],
+      last: RESULTS[3],
     },
   }));
 
@@ -30,4 +31,5 @@ test('ResultContainer', () => {
   expect(getByText(RESULTS[0].description)).not.toBeNull();
   expect(getByText(RESULTS[1].tag)).not.toBeNull();
   expect(getByText(RESULTS[2].tag)).not.toBeNull();
+  expect(getByText(RESULTS[3].tag)).not.toBeNull();
 });
