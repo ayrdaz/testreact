@@ -6,8 +6,8 @@ import { GradientButton } from '../../styles/who-are-you';
 
 const Icon = styled.i({
   fontSize: '1em',
-  color:'white',
-  fontcolor:'white'
+  color:'black',
+ 
 });
 
 export default function NextButton({ onClick, disabled }) {

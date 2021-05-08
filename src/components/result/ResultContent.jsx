@@ -34,7 +34,7 @@ const CompanyLogo = styled.img({
   maxWidth: '80vw',
 });
 
-export default function ResultContent({ first, second, last }) {
+export default function ResultContent({ first, second, three,last }) {
   return (
     <Container>
       <TitleWithEmoji
@@ -62,6 +62,14 @@ export default function ResultContent({ first, second, last }) {
         emoji="☑"
       />
       <Tag>{second.tag}</Tag>
+
+
+      <TitleWithEmoji
+        title="세번째로_잘어울리는_트랙"
+        emoji="☑"
+      />
+      <Tag>{three.tag}</Tag>
+
       <TitleWithEmoji
         title="나와_마지막으로_잘어울리는_트랙"
         emoji="☑"

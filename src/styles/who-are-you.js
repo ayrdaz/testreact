@@ -28,7 +28,7 @@ const GradientButton = styled.button(({ disabled }) => ({
   width: '8em',
  
   
-  color: 'pink',
+  color: 'black',
   fontWeight: 'bold',
   padding: '.4em',
   outline: 'none',
