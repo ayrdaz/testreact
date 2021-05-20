@@ -10,6 +10,7 @@ const Container = styled.div({
   alignItems: 'center',
   width: '100%',
   padding: '2em',
+
 });
 
 const Logo = styled.img({

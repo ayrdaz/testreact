@@ -42,7 +42,7 @@ export function findResultIds(scores) {
   const resultIds = {
     firstId: getId(0),
     secondId: getId(1),
-    third: getId(sortedScores.length - 2),
+    thirdId: getId(sortedScores.length - 2),
     lastId: getId(sortedScores.length - 1),
   };
   //3 4 2 3

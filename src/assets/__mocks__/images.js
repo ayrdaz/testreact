@@ -1,11 +1,11 @@
 const WhiteLogoImage = '';
 const BlackLogoImage = '';
-const Profile104 = '';
+const PreviewImage = '';
 
 export {
   WhiteLogoImage,
   BlackLogoImage,
-  Profile104,
+  PreviewImage,
 };
 
 export const companyLogos = {

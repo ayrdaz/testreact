@@ -96,7 +96,7 @@ test('findResultIds', () => {
   const resultIds = {
     firstId: 1,
     secondId: 5,
-    third:3, //여기
+    thirdId:3, //여기
     lastId: 2,
   };
 

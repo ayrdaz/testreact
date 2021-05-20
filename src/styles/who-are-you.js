@@ -11,9 +11,7 @@ const FeedLayout = styled.div({
   paddingTop: TOP_BAR_HEIGHT,
   paddingBottom: BOTTOM_BAR_HEIGHT,
   background: '#2a236e',
-  
-  
-  
+ 
   
   
 });
@@ -27,8 +25,7 @@ const GradientButton = styled.button(({ disabled }) => ({
   height: '3em',
   width: '8em',
  
-  
-  color: 'pink',
+  color: 'white',
   fontWeight: 'bold',
   padding: '.4em',
   outline: 'none',
@@ -41,7 +38,7 @@ const GradientButton = styled.button(({ disabled }) => ({
     display: 'flex',
     height: '100%',
     
-    backgroundColor: 'white',
+    backgroundColor: '#030066',
     
     alignItems: 'center',
     justifyContent: 'space-around',

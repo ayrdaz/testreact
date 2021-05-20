@@ -10,7 +10,7 @@ import { companyLogos } from '../../assets/images';
 const Container = styled.div({
   textAlign: 'center',
   backgroundColor: '#28288C',
-  margin: '2em',
+  margin: '3em',
   color:'white',
   
   padding: '1.5em',
@@ -67,7 +67,7 @@ export default function ResultContent({ first, second, third, last }) {
         title="세번째로_잘어울리는_트랙"
         emoji="☑"
       />
-      {/* <Tag>{third.subtitle}</Tag> */}
+      {<Tag>{third.subtitle}</Tag> }
 
       <TitleWithEmoji
         title="나와_마지막으로_잘어울리는_트랙"

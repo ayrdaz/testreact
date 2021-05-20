@@ -17,6 +17,13 @@ const results = [
     description: '아마존은~',
     tag: '태그_@Amazon',
   },
+  {
+    id: 4,
+    name: 'Tesla',
+    description: '테슬라는~',
+    tag: '태그_@Tesla',
+  },
+  
 ];
 
 export default results;
