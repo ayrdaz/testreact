@@ -1,15 +1,35 @@
+
 import React from 'react';
 
 import styled from '@emotion/styled';
 
 const Container = styled.div({
-  display: 'flex',
+  display: 'flex-basis',
   width: '100%',
   padding: '2em',
-  
+
 });
 
-const HomeButton = styled.button({
+const gotoButton = styled.button({
+   
+     float: 'left',         
+  height: '3em',
+  width: '7em',
+  color: 'white',
+  border: '2px solid #14148C',
+  color:'white',
+  backgroundColor: '#14148C',
+  fontWeight: 'bold',
+  fontFamily: 'Source Code Pro',
+  boxShadow: '0 4px 4px -4px #14148C',
+  outline: 'none',
+  '&:hover': {
+    backgroundColor: '#28288C',
+    boxShadow: '0 10px 10px -10px #28288C',
+  },
+});
+
+const  HomeButton = styled.button({
   float: 'left',
   height: '3em',
   width: '7em',
@@ -26,6 +46,10 @@ const HomeButton = styled.button({
     boxShadow: '0 10px 10px -10px #28288C',
   },
 });
+
+
+
+
 
 const ContributorsButton = styled.button({
   float: 'right',
@@ -46,15 +70,28 @@ const ContributorsButton = styled.button({
   },
 });
 
+
 export default function ResultPageButtons({ onClick }) {
   return (
-    <Container>
-      <HomeButton
+
+
+   <Container>
+   <Container>
+ <gotoButton
+        type="button"
+        onClick={() => window.location.href = "http://cse.hansung.ac.kr/"}
+      >
+       컴퓨터 공학부 바로가기
+       </gotoButton>
+   </Container>
+
+      < HomeButton
         type="button"
         onClick={() => onClick('/')}
       >
-        HOME
+        Home
       </HomeButton>
+
       <ContributorsButton
         type="button"
         onClick={() => onClick('/contributors')}
@@ -63,6 +100,8 @@ export default function ResultPageButtons({ onClick }) {
         {' '}
         <span role="img" aria-label="congrats">🥳</span>
       </ContributorsButton>
-    </Container>
+
+
+ </Container>
   );
 }

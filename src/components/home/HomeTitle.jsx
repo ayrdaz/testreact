@@ -5,17 +5,18 @@ import styled from '@emotion/styled';
 import { WhiteLogoImage } from '../../assets/images';
 
 const Container = styled.div({
-  display: 'flex',
+  display: 'default',
   flexDirection: 'column',
   alignItems: 'center',
   width: '100%',
   padding: '2em',
+
 });
 
 const Logo = styled.img({
-  height: '240px', //첫화면로고크기
-  width: '210px',
-  margin: '1em auto',
+  height: '100%', //첫화면로고크기
+  width: '100%',
+  //margin: '1em auto',
 });
 
 const Text = styled.div({

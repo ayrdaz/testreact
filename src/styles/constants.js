@@ -1,6 +1,6 @@
 export const TOP_BAR_HEIGHT = '4em';
 export const BOTTOM_BAR_HEIGHT = '4.2em';
-
+//'#4641D9', '#52478B'
 export const ACCENT_COLOR = '#4646CD';
 export const MAIN_GRADIENT_COLOR = ['#4641D9', '#52478B'];
 export const GRAY_GRADIENT_COLOR = ['#4641D9', '#52478B'];
