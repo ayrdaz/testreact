@@ -81,7 +81,7 @@ export default function ResultPageButtons({ onClick }) {
         type="button"
         onClick={() => window.location.href = "http://cse.hansung.ac.kr/"}
       >
-       컴퓨터 공학부 바로가기
+       Click➡컴퓨터공학부 바로가기
        </gotoButton>
    </Container>
 
