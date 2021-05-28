@@ -29,7 +29,7 @@ const gotoButton = styled.button({
   },
 });
 
-const HomeButton = styled.button({
+const  HomeButton = styled.button({
   float: 'left',
   height: '3em',
   width: '7em',
@@ -85,11 +85,11 @@ export default function ResultPageButtons({ onClick }) {
        </gotoButton>
    </Container>
 
-      <HomeButton
+      < HomeButton
         type="button"
         onClick={() => onClick('/')}
       >
-        HOME
+        Home
       </HomeButton>
 
       <ContributorsButton

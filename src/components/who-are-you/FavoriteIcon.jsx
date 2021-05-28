@@ -48,7 +48,8 @@ import { ACCENT_COLOR } from '../../styles/constants';
 const Icon = styled.i(({ selected }) => ({
   float: 'right',
  // margin: 'auto 0 auto 1em',
-  color: selected ? ACCENT_COLOR : '#FF00DD',
+  color: selected ? ACCENT_COLOR : '#FFFFFF',
+
 }));
 
 export default function CheckboxIcon({ isSelected }) {
@@ -61,7 +62,7 @@ export default function CheckboxIcon({ isSelected }) {
               className="material-icons"
               selected={isSelected}
             >
-             ✓
+            ✓
             </Icon>
           )
           : (

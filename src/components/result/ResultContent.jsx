@@ -16,6 +16,8 @@ const Container = styled.div({
   padding: '1.5em',
 });
 
+
+
 const Tag = styled.div({
   textAlign: 'center',
 });
@@ -34,8 +36,9 @@ const CompanyLogo = styled.img({
   maxWidth: '80vw',
 });
 
+
 export default function ResultContent({ first, second, third, last }) {
-  return (
+ return (
     <Container>
       <TitleWithEmoji
         title="당신의_트랙은_바로!"
@@ -45,10 +48,11 @@ export default function ResultContent({ first, second, third, last }) {
         src={companyLogos[first.id]}
         alt=""
       /> */}
-      <Subtitle> </Subtitle>
-      <Subtitle>{first.subtitle}</Subtitle>
-      {/* <p>{first.description}</p> */}
-      {first.description.split("\n").map((line) => { 
+      
+    <Subtitle>{first.subtitle}</Subtitle>
+
+    {/* <p>{first.description}</p> */}
+     {first.description.split("\n").map((line) => { 
             return (
               <p>
                 {line}
@@ -57,11 +61,26 @@ export default function ResultContent({ first, second, third, last }) {
             );
           })}
 
+
+
       <TitleWithEmoji
         title="두번째로_잘어울리는_트랙"
         emoji="☑"
       />
       <Tag>{second.subtitle}</Tag>
+    
+{second.description.split("\n").map((line) => { 
+            return (
+              <p>
+                {line}
+                <br/>
+              </p>
+            );
+          })}
+
+
+
+
 
       <TitleWithEmoji
         title="세번째로_잘어울리는_트랙"
@@ -69,16 +88,37 @@ export default function ResultContent({ first, second, third, last }) {
       />
       {<Tag>{third.subtitle}</Tag> }
 
+        {third.description.split("\n").map((line) => { 
+            return (
+              <p>
+                {line}
+                <br/>
+              </p>
+            );
+          })}
+    
+
       <TitleWithEmoji
         title="나와_마지막으로_잘어울리는_트랙"
         emoji="☑"
       />
       <Tag>{last.subtitle}</Tag>
-      {/* <TitleWithEmoji
+
+
+        {last.description.split("\n").map((line) => { 
+            return (
+              <p>
+                {line}
+                <br/>
+              </p>
+            );
+          })}
+    
+      {<TitleWithEmoji
         title="공유하기"
         emoji="💡"
-      /> */}
-      {/* <ShareButtons></ShareButtons> */}
+      /> }
+      { <ShareButtons></ShareButtons> }
     </Container>
   );
 }
