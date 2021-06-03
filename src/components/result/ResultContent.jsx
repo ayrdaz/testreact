@@ -109,7 +109,7 @@ export default function ResultContent({ first, second, third, last }) {
             );
           })}
       <TitleWithEmoji
-        title="나와_마지막으로_잘어울리는_트랙"
+        title="마지막으로_잘어울리는_트랙"
         emoji="☑"
       />
       <Tag>{last.subtitle}</Tag>
