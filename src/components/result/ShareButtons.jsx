@@ -5,8 +5,7 @@ import styled from '@emotion/styled';
 import {
   FacebookShareButton,
   FacebookIcon,
-  FacebookMessengerShareButton,
-  FacebookMessengerIcon,
+
   TwitterShareButton,
   TwitterIcon,
 } from 'react-share';
@@ -33,14 +32,7 @@ export default function ShareButtons() {
           />
         </FacebookShareButton>
       </ButtonWrapper>
-      <ButtonWrapper>
-        <FacebookMessengerShareButton url={shareUrl}>
-          <FacebookMessengerIcon
-            size={32}
-            round
-          />
-        </FacebookMessengerShareButton>
-      </ButtonWrapper>
+      
       <ButtonWrapper>
         <TwitterShareButton url={shareUrl}>
           <TwitterIcon
