@@ -38,11 +38,7 @@ export default function Result({
           isBackgroundDark={first.type === 'dark'}
         />
         
-          {/*
-        <CompanyTitle
-          id={first.id}
-        />
-          */}
+          {}
         
         <ResultContent
           first={first}
