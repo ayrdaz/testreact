@@ -6,13 +6,15 @@ import cat1 from './images/result/1.jpg';
 import cat2 from './images/result/2.jpg';
 import cat3 from './images/result/3.jpg';
 import cat4 from './images/result/4.jpg';
+/*
 import cat5 from './images/result/5.jpg';
 import cat6 from './images/result/6.jpg';
 import cat7 from './images/result/7.jpg';
 import cat8 from './images/result/8.jpg';
 import cat9 from './images/result/9.jpg';
-
+*/
 import FeedImage101 from './images/feeds/1.jpg';
+/*
 import FeedImage102 from './images/feeds/2.jpg';
 import FeedImage103 from './images/feeds/3.jpg';
 import FeedImage104 from './images/feeds/4.jpg';
@@ -24,10 +26,18 @@ import FeedImage302 from './images/feeds/feed3_2.png';
 import Profile101 from './images/profiles/profile1_1.png';
 import Profile102 from './images/profiles/profile1_2.png';
 import Profile103 from './images/profiles/profile1_3.png';
-import Profile104 from './images/profiles/profile1_4.png';
+*/
+
+//import Profile104 from './images/profiles/profile1_4.png';
+
+
+/*
 import Profile201 from './images/profiles/profile2_1.png';
 import Profile202 from './images/profiles/profile2_2.png';
+*/
 import Profile203 from './images/profiles/profile2_3.png';
+
+/*
 import Profile204 from './images/profiles/profile2_4.png';
 import Profile301 from './images/profiles/profile3_1.png';
 import Profile302 from './images/profiles/profile3_2.png';
@@ -42,7 +52,7 @@ import p2 from './images/profiles/2.png';
 import p3 from './images/profiles/3.png';
 import p4 from './images/profiles/4.png';
 import p5 from './images/profiles/5.png';
-
+*/
 import NanKimImage from './images/profiles/profile2_3.png';
 import YeeunHanImage from './images/profiles/profile2_3.png';
 import SeungjuChoiImage from './images/profiles/profile2_3.png';
@@ -51,7 +61,7 @@ export {
   WhiteLogoImage,
   BlackLogoImage,
   ContributorsImage,
-  Profile104,
+ // Profile104,
 };
 
 export const companyLogos = {
@@ -59,11 +69,13 @@ export const companyLogos = {
   2: cat2,
   3: cat3,
   4: cat4,
+/*
   5: cat5,
   6: cat6,
   7: cat7,
   8: cat8,
   9: cat9,
+*/
 };
 
 export const questionnaireImages = {
